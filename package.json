@@ -7,6 +7,7 @@
     "url": "https://github.com/contentful-userland/gatsby-contentful-starter/issues"
   },
   "dependencies": {
+    "autoprefixer": "^10.0.3",
     "gatsby-image": "^2.3.4",
     "gatsby-plugin-react-helmet": "^3.2.4",
     "gatsby-plugin-sharp": "^2.5.6",
@@ -14,10 +15,12 @@
     "gatsby-transformer-remark": "^2.7.3",
     "gatsby-transformer-sharp": "^2.4.6",
     "lodash": "^4.17.15",
+    "postcss": "^8.1.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0",
-    "sharp": "^0.25.2"
+    "sharp": "^0.25.2",
+    "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
