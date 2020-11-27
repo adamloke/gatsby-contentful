@@ -20,7 +20,13 @@
     "sharp": "^0.25.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@storybook/addon-actions": "^6.1.8",
+    "@storybook/addon-essentials": "^6.1.8",
+    "@storybook/addon-links": "^6.1.8",
+    "@storybook/react": "^6.1.8",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
     "chalk": "^4.0.0",
     "contentful-import": "^7.7.8",
     "dotenv": "^8.2.0",
@@ -60,6 +66,8 @@
     "setup": "node ./bin/setup.js",
     "start": "npm run develop",
     "heroku-postbuild": "gatsby build",
-    "cleanup-repository": "yarn remove contentful-import chalk inquirer && node ./bin/cleanup.js && rimraf bin contentful"
+    "cleanup-repository": "yarn remove contentful-import chalk inquirer && node ./bin/cleanup.js && rimraf bin contentful",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
